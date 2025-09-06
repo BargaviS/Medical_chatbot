@@ -1,0 +1,11 @@
+sentence-transformers==2.2.2   # For embeddings (convert text into numerical vectors for similarity search)
+langchain                      # Framework for building LLM-powered apps (chains, prompts, tools, etc.)
+flask                          # Lightweight web framework to serve the chatbot as a web app/API
+pypdf                          # To extract and read text from PDF documents
+python-dotenv                  # Load API keys and environment variables from .env file
+pinecone[grpc]                  # Pinecone vector database client with gRPC support (for fast similarity search)
+langchain-pinecone              # Integration of LangChain with Pinecone for vector search
+langchain_community             # Extra community-maintained integrations and tools for LangChain
+langchain_openai                # LangChain integration for using OpenAI models (ChatGPT, GPT-4, etc.)
+langchain_experimental          # Latest experimental modules/features in LangChain
+-e .
